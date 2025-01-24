@@ -20,7 +20,14 @@ body {
 }
 
 .stats-container {
-    display: flex;
+    display: flex; /* Enables Flexbox layout */
+    align-items: flex-start; /* Align items to the top (horizontal alignment) */
+}
+
+/* Hover Effect for Stats Container */
+.stats-container:hover {
+    cursor: pointer; /* Changes the cursor to a pointer */
+    box-shadow: 0 0 30px lightblue; /* Adds a glowing shadow effect */
 }
 
 .stats-card {
